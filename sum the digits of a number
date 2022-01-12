@@ -1,0 +1,7 @@
+//WAP to sum the digit of a number with four digit passed as the parameter using function.
+func sum (firstNumber: Int , secondNumber: Int , thirdNumber: Int ,fourthNumber: Int ) -> Int{
+    let result = firstNumber + secondNumber + thirdNumber + fourthNumber
+    return result
+}
+var result = sum(firstNumber : 1000, secondNumber : 3000,  thirdNumber : 4000, fourthNumber : 2000)
+print(result) 
